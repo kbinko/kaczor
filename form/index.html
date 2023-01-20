@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1 class="tytul">Ankieta o aktywności fizycznej poza szkołą</h1>
+    </header>
+
+    <section>
+
+        <form action="#" name="form">
+
+            <h3>Imię</h3>
+            <input id="imie" class="name" name="name">
+            <br>
+            <h3>Nazwisko</h3>
+            <input id="name1" class="name" name="name">
+            <br>
+
+            <h3 class="gender-text">Płeć:</h3>
+            <input class="gender" type="radio" name="Płeć" value="Kobieta">Kobieta
+            <input class="gender" type="radio" name="Płeć" value="Mężczyzna">Mężczyzna
+            <input class="gender" type="radio" name="Płeć" value="Inna">Inna
+
+            <br>
+
+            <h3 class="age-text">Ile masz lat?</h3>
+            <input class="age" type="radio" name="Wiek" value="mniej niż 15"> Mniej niz 15<br>
+            <input class="age" type="radio" name="Wiek" value="15-19">15-19<br>
+            <input class="age" type="radio" name="Wiek" value="20-29">20-29<br>
+            <input class="age" type="radio" name="Wiek" value="20-29">30+
+
+            <br>
+
+            <h3 class="aktywnosc-tekst">Czy jesteś aktywny fizycznie?</h3>
+            <input class="aktywnosc" type="radio" name="aktywność" value="tak">Tak
+            <input class="aktywnosc" type="radio" name="aktywność" value="nie">Nie
+
+            <br>
+
+            <h3 class="czas-text">Ile czasu tygodniowo poświęcasz na sport?</h3>
+            <input class="czas" type="radio" name="czas" value="1-2">1-2
+            <input class="czas" type="radio" name="czas" value="2-4">2-4
+            <input class="czas" type="radio" name="czas" value="6-8">6-8
+            <input class="czas" type="radio" name="czas" value="8-10+">8-10+
+
+            <br>
+
+            <input id="button" class="button" type="submit" onclick="return sprawdz();" value="Wyślij">
+        </form>
+
+    </section>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

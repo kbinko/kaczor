@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body {
+    background-color: #FBEAEB;
+    font-family: 'lato', sans-serif;
+    color: #2F3C7E;
+}
+
+.tytul {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.name {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #101820FF;
+    background-color: #fde6e7;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.gender {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.age {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.aktywnosc {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.czas {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #101820FF;
+    background-color: #fde6e7;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.button:hover {
+    background-color: #8bc5ecb6;
+    font-weight: 700;
+}
